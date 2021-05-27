@@ -1,0 +1,66 @@
+#dataSource {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+  height: 100%;
+  color: white;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  background: green;
+  background-image: none;
+  border: 1px solid black;
+}
+#select {
+  position: relative;
+  display: block;
+  width: 20em;
+  height: 3.5em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .5rem;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+select::-ms-expand {
+  display: none;
+}
+#select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.3em 1em;
+  background: #34495e;
+  pointer-events: none;
+}
+#select:hover::after {
+  color: #f39c12;
+}
+
+#select::after {
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+
+#proceedButton {
+    margin-top: 1rem;
+    padding: 10px 32px;
+}
