@@ -1,0 +1,5 @@
+{
+    "mongoURI":
+      "mongodb+srv://darsh:wJWpPPCSb9hoK7Ar@cluster0.we3n2.mongodb.net/connection?retryWrites=true&w=majority"
+  }
+

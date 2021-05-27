@@ -1,0 +1,27 @@
+{
+  "name": "mern_book",
+  "version": "1.0.0",
+  "description": "This App will provide information about books available in the mongodb database and connects with frontend",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "nodemon",
+    "route"
+  ],
+  "author": "Dharshan Sridhara Rao",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
